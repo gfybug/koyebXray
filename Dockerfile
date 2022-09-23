@@ -3,7 +3,7 @@ FROM alpine:edge
 ARG AUUID="b59bfcbb-f94d-4aea-8dc6-a2836c52165a"
 ARG CADDYIndexPage="https://github.com/AYJCSGM/mikutap/archive/master.zip"
 ARG ParameterSSENCYPT="chacha20-ietf-poly1305"
-ARG PORT=8080
+ARG PORT=80
 
 ADD etc/Caddyfile /tmp/Caddyfile
 ADD etc/xray.json /tmp/xray.json
